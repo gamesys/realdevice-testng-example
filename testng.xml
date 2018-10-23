@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="example" configfailurepolicy="continue">
+    <test verbose="2" name="example" preserve-order="true" thread-count="3" parallel="instances">
+        <classes>
+            <class name="com.qa.tests.MultiDeviceExampleTest"/>
+        </classes>
+    </test>
+</suite>
